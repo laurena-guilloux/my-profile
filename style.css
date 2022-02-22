@@ -1,0 +1,80 @@
+body {
+	background: white;
+	font-family: 'Open Sans', sans-serif;
+
+
+}
+h1{
+	font-family: 'Do Hyeon', sans-serif;
+	font-weight: 800;
+	
+
+}
+
+h2 {
+	color: rgb(10, 10, 10);
+	background: cyan;
+	font-size: 26px;
+	font-family: helvetica;
+}
+
+
+a{
+	text-decoration: none;
+	color: blue;
+}
+a:hover {
+	color: blueviolet;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px)
+	.container {
+		width: 600px 
+	}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;}
+
+.img-circle{
+	border-radius: 70%;
+}
+.btn-grey {
+	background-color: lightgrey;
+	color: blue;
+	padding: 15px 18px;
+    border-radius: 4px;
+}
+.btn-grey:hover{
+	background-color:honeydew ;
+	color: blueviolet;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 25px;
+}
+.list-inline i{
+	font-size: 25px;
+}
